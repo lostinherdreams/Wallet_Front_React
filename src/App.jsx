@@ -21,7 +21,7 @@ function App() {
         setIsDarkMode(e.matches);
         document.body.style.backgroundColor = e.matches ? "#444444" : "#f5f0fc";
       };
-      handleChange(mediaQuery); // Set initial background color
+      handleChange(mediaQuery)
       mediaQuery.addListener(handleChange);
   
       return () => {
