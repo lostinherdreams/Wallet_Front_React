@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Grid } from "@mui/material";
 
 export function Balance() {
-    const [count, setCount] = useState("100");
+    const [count, setCount] = useState("0");
 
     const handleBalanceChange = (count) => {
         setCount(count);

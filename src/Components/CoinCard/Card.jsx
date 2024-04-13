@@ -14,7 +14,7 @@ const Item = styled(Paper)(({ theme }) => ({
 }));
 
 // Card component
-export function Card({ unit, tokenName, worth, rate, logo }) {
+export function Card({ unit, tokenName, worth, rate, logo , mode }) {
   const [count, setCount] = useState(0);
   const sign = rate >= 0 ? "+" : null;
 
@@ -22,8 +22,9 @@ export function Card({ unit, tokenName, worth, rate, logo }) {
     <Grid
       container
       spacing={3}
-      bgcolor="white"
+      
       sx={{
+        backgroundColor: mode ? '#d1d1d1' : 'white',
         borderRadius: "8px",
         margin: "10px",
         boxShadow: "0px 2px 5px rgba(0, 0, 0, 0.1)",

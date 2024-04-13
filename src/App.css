@@ -12,8 +12,8 @@
 .read-the-docs {
   color: #888;
 }
+
 body{
-  background-color: #e9e5f3;
   user-select: none;
 }
 
@@ -21,7 +21,6 @@ body{
   border: 2px solid #d5d5d590;
   border-radius: 8px;
   padding: 16px;
-  background-color: #f8f8f8;
   overflow: hidden;
   scale: 1.25;
 }
