@@ -42,4 +42,5 @@
 }
 body{
   background-color: #e9e5f3;
+  user-select: none;
 }
